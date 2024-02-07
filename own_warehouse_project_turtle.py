@@ -30,8 +30,8 @@ class Warehouse:
         t = turtle.Turtle()
 
         # Set turtle speed and color
-        t.speed(2)
-        t.color("blue")
+        t.speed(4)
+        t.color("red")
 
         # Draw a simple warehouse shape
         t.penup()
