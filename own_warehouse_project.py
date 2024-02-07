@@ -1,3 +1,7 @@
+# This code is very basic and just for people to enter name of products, numbers and destination.
+# I have imported Colorama to make the welcome message more visible.
+
+
 import argparse
 import sys
 from colorama import Fore, init
@@ -34,7 +38,7 @@ def main(args=None):
     warehouse = Warehouse()
 
     while True:
-        print(Fore.RED + "\nWelcome to Jonathan's warehouse where the best products are sold" + Fore.RESET)
+        print(Fore.RED + "\nWelcome to Jonathan's warehouse where you get the BEST service and Products" + Fore.RESET)
 
         print("\nWarehouse Management System")
         print("1. Add Stock")
